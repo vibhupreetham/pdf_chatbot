@@ -1,5 +1,3 @@
-# pdf_chatbot
-Chat with your PDF using free Hugging Face embeddings and Google Gemini! Upload any PDF and have multi-turn conversations with it. Powered by LangChain, FAISS, and Streamlit — no OpenAI needed.
 # 📄 Chat with Your PDF using Gemini + Hugging Face + FAISS
 
 This project lets you **interact with any PDF using natural language**.
@@ -46,24 +44,25 @@ This project lets you **interact with any PDF using natural language**.
 
 ### 1. Clone the repo
 
-```bash
+bash
 git clone https://github.com/your-username/pdf-chatbot
 cd pdf-chatbot
 
-##2. Install dependencies
+
+### 2. Install dependencies
 
 
 pip install -r requirements.txt
 
-###3. Add your Gemini API Key
+### 3. Add your Gemini API Key
 
 GOOGLE_API_KEY = "your_google_gemini_api_key_here"
 
-###Run the App
+### Run the App
 
 streamlit run app.py
 
-####file structure 
+#### file structure 
 pdf-chatbot/
 │
 ├── app.py                    # Main Streamlit app
